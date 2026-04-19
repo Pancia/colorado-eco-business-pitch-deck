@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1c18"/>
+      <stop offset="100%" stop-color="#3a4a32"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#sky)"/>
+  <!-- mountains -->
+  <path d="M0 520 L200 340 L340 430 L520 280 L700 420 L900 320 L1200 500 L1200 630 L0 630 Z" fill="#0e0f0c"/>
+  <path d="M0 560 L180 460 L360 520 L560 420 L780 510 L1000 450 L1200 540 L1200 630 L0 630 Z" fill="#243020" opacity="0.85"/>
+  <!-- sun -->
+  <circle cx="900" cy="180" r="50" fill="#c45a2a"/>
+  <!-- text -->
+  <text x="80" y="220" font-family="Georgia, serif" font-size="96" font-weight="500" fill="#f5f1e8">The Summit</text>
+  <text x="80" y="280" font-family="Inter, sans-serif" font-size="28" fill="#f5f1e8" opacity="0.8" letter-spacing="4">A MEN'S ECO-VILLAGE &middot; DURANGO, COLORADO</text>
+</svg>

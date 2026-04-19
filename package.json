@@ -1,0 +1,16 @@
+{
+  "name": "the-summit-landing",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Landing site for The Summit — a men's intentional community / eco-village in Durango, CO.",
+  "scripts": {
+    "build": "tailwindcss -i ./styles/input.css -o ./styles/dist.css --minify",
+    "dev": "tailwindcss -i ./styles/input.css -o ./styles/dist.css --watch",
+    "serve": "python3 -m http.server 8080"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17",
+    "@tailwindcss/forms": "^0.5.10",
+    "@tailwindcss/typography": "^0.5.16"
+  }
+}

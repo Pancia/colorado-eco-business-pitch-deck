@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://Pancia.github.io/colorado-eco-business-pitch-deck/sitemap.xml

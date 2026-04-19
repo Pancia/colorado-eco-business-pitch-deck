@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Summit — A Men's Eco-Village in Durango, Colorado</title>
+  <meta name="description" content="The Summit is an intentional community and eco-village being built in rural Durango, Colorado. Bimonthly residencies for driven men who want to train, build, and belong." />
+  <link rel="canonical" href="https://Pancia.github.io/colorado-eco-business-pitch-deck/" />
+
+  <!-- Open Graph / social -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="The Summit" />
+  <meta property="og:title" content="The Summit — A Men's Eco-Village in Durango, Colorado" />
+  <meta property="og:description" content="Train. Build. Belong. An intentional community forming in rural Colorado." />
+  <meta property="og:image" content="assets/og-image.svg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.svg" />
+
+  <!-- PLACEHOLDER: self-host these fonts in assets/fonts/ for v2. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles/dist.css" />
+  <script defer src="config.js"></script>
+</head>
+<body class="bg-ink text-bone">
+
+  <!-- Full-bleed hero with slideshow + audience split -->
+  <main class="relative min-h-screen flex flex-col">
+    <div class="slideshow absolute inset-0 z-0" data-slideshow aria-label="Property imagery">
+      <!-- PLACEHOLDER: stock Colorado / mountain / cabin imagery. Replace with real property photos. -->
+      <div class="slide">
+        <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1920&q=80"
+             alt="A mountain range at dawn"
+             width="1920" height="1080" loading="eager" decoding="async" />
+      </div>
+      <div class="slide">
+        <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=1920&q=80"
+             alt="An alpine forest in Colorado"
+             width="1920" height="1080" loading="lazy" decoding="async" />
+      </div>
+      <div class="slide">
+        <img src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1920&q=80"
+             alt="A wooden cabin in the mountains"
+             width="1920" height="1080" loading="lazy" decoding="async" />
+      </div>
+      <div class="absolute inset-0 bg-gradient-to-b from-ink/60 via-ink/40 to-ink/90"></div>
+    </div>
+
+    <nav class="relative z-10 container-x flex items-center justify-between py-6 text-bone">
+      <a href="/" class="font-display text-xl tracking-wider" data-brand>The Summit</a>
+      <span class="eyebrow text-bone/70">Durango, Colorado</span>
+    </nav>
+
+    <div class="relative z-10 flex-1 container-x flex items-center">
+      <div class="max-w-2xl py-20 animate-fade-in">
+        <div class="rule mb-8"></div>
+        <h1 class="font-display text-5xl md:text-7xl leading-[0.95] mb-6">
+          A village for the <em class="italic text-ember">men being forged</em> on the land.
+        </h1>
+        <p class="text-lg md:text-xl text-bone/80 mb-10 max-w-xl leading-relaxed">
+          An intentional community forming in rural ski country.
+          Bimonthly residencies, sustainable housing, and a brotherhood
+          that's built &mdash; not bought.
+        </p>
+
+        <div class="flex flex-col sm:flex-row gap-4">
+          <a href="invest.html" class="btn-ghost">
+            I'm a partner / investor &rarr;
+          </a>
+          <a href="join.html" class="btn bg-bone text-ink border-bone hover:bg-ember hover:border-ember hover:text-bone">
+            I want to join a cohort &rarr;
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <footer class="relative z-10 container-x py-8 text-bone/60 text-sm flex flex-col md:flex-row justify-between gap-2">
+      <span>&copy; <span data-year></span> <span data-brand>The Summit</span>. All rights reserved.</span>
+      <a href="mailto:" data-contact-email class="underline hover:text-bone">hello@thesummit.example</a>
+    </footer>
+  </main>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const y = document.querySelector("[data-year]");
+      if (y) y.textContent = new Date().getFullYear();
+    });
+  </script>
+  <script src="scripts/slideshow.js"></script>
+</body>
+</html>
