@@ -24,7 +24,7 @@ Then open http://localhost:8080.
 1. Create a new GitHub repo and push this directory.
 2. Repo Settings → Pages → Build from branch → `main` / `(root)`.
 3. Your site will be at `https://<username>.github.io/<repo-name>/`.
-4. Canonical URLs and sitemap already point at `https://Pancia.github.io/colorado-eco-business-pitch-deck/`. If the repo is ever renamed or transferred, update those URLs in `index.html`, `invest.html`, `join.html`, `robots.txt`, and `sitemap.xml`.
+4. Canonical URLs and sitemap already point at `https://pancia.github.io/colorado-eco-business-pitch-deck/`. If the repo is ever renamed or transferred, update those URLs in `index.html`, `invest.html`, `join.html`, `robots.txt`, and `sitemap.xml`.
 
 No GitHub Action is needed — Pages serves the committed HTML + CSS directly.
 
